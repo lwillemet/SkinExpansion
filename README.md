@@ -1,17 +1,17 @@
-## SkinExpansion
+# SkinExpansion
 Author: Laurence Willemet, MIT.
 
 This folder includes the codes used to acquire the dataset of human experiment with the skin expansion setup.
 
-# Pre-requists:
+## Pre-requists:
 Requirred python libraries:
-    communication Arduino: serial,
-    image acquisition: zmq,
-    image saving: h5py,
-    multithreading: threading,
-    user inputs: getch
+    - communication Arduino: serial,
+    - image acquisition: zmq,
+    - image saving: h5py,
+    - multithreading: threading,
+    - user inputs: getch
 
-# Before running the experiment:
+## Before running the experiment:
 - Plug in the power supply and the LEDs to the RPi.
 - Connect the 3 USB cables to the computer.
 - Communication with then Arduino:
@@ -22,7 +22,7 @@ Requirred python libraries:
   start camera streamer: python3 /home/pi/zmq_node.py
   wait until it is Running... in the terminal
 
-# Codes
+## Codes
 1) camera_test.py was used to check the image visualization in real time from the raspberry pi.
 2) familiarization.py was run first so the participant can familiarised theirself with the setup. It consists of 5 trials, so a total of 10 lifts.
 3) dataAcquisition.py is running the real experiment of 50 trials in a row (So 100 lifts).
