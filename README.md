@@ -1,7 +1,9 @@
 # SkinExpansion
 Author: Laurence Willemet, MIT.
 
+## Description
 This folder includes the codes used to acquire the dataset of human experiment with the skin expansion setup.
+In this work, we built a tactile device that radially deforms both the index and thumb using soft deformable membranes. The slipperiness sensation is achieved by modulating the rate of expansion, which can be controlled according to the squeezing force applied on the object. The results suggest that this deformation pattern generates a sensation of slipperiness. These results can significantly improve the rendering of the haptic modality in tele-robotics, where operators control robot manipulators over a distance.
 
 ## Pre-requists:
 Requirred python libraries:
