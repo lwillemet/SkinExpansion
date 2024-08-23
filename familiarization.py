@@ -26,9 +26,9 @@ from pygame import mixer
 #mixer function call
 mixer.init()
 #storing the sound after accessing it
-plays=mixer.Sound("beep-10.wav")
-plays_question=mixer.Sound("question.wav")
-plays_end=mixer.Sound("end.wav")
+plays=mixer.Sound("Audio/beep-10.wav")
+plays_question=mixer.Sound("Audio/question.wav")
+plays_end=mixer.Sound("Audio/end.wav")
 
 # before copy/paste this line in a terminal
 #sudo chmod a+rw /dev/ttyACM0
@@ -339,14 +339,6 @@ try:
 
             fps_images.stop()
             fps_data.stop()
-
-            #packet_q.join()            
-
-            # Plotting --> work on that
-            #fig = plt.figure()
-            #plt.plot(forcesvec)
-            #plt.show()
-            #plt.close()
 
             print("[INFO][CAMERA THREAD] elasped time: {:.2f}".format(fps_images.elapsed()))
             print("[INFO][CAMERA THREAD] approx. FPS: {:.2f}".format(fps_images.fps()))
