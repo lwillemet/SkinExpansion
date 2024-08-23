@@ -7,11 +7,11 @@ In this work, we built a tactile device that radially deforms both the index and
 
 ## Pre-requists:
 Requirred python libraries:
-    - communication Arduino: serial,
-    - image acquisition: zmq,
-    - image saving: h5py,
-    - multithreading: threading,
-    - user inputs: getch
+- communication Arduino: serial,
+- image acquisition: zmq,
+- image saving: h5py,
+- multithreading: threading,
+- user inputs: getch
 
 ## Before running the experiment:
 - Plug in the power supply and the LEDs to the RPi.
