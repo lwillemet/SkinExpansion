@@ -20,7 +20,7 @@ Requirred python libraries:
   copy/paste this line in a terminal: sudo chmod a+rw /dev/ttyACM0
 - Communication with the Raspberry Pi:
     ssh pi@172.16.0.2
-    password: BaxterUR5
+    password: BaxterUR555
   start camera streamer: python3 /home/pi/zmq_node.py
   wait until it is Running... in the terminal
 
